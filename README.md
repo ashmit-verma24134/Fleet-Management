@@ -49,7 +49,6 @@ These choices match the access pattern (many reads from the GUI, infrequent writ
 
 <h2>GUI Explanation</h2>
 
-![GUI](docs/screenshots/GUI.png)
 
 <ol>
     <li>Start (unsynchronised) - Starts the unsynchronised version of the simulation for all threads</li>
@@ -65,7 +64,6 @@ These choices match the access pattern (many reads from the GUI, infrequent writ
 <h2>Unsynced Threads (Race Condition)</h2>
 
 
-![Unsynced](docs/screenshots/unsynced.png)
 
 <p>Here we can clearly see, when the threads arent synchronized, the critical section variable ""Highway distance" isnt correctly updating.
 Each vehicles mileage is 8, and the total distance should be 24.
@@ -76,6 +74,5 @@ However, due to race condition, the value isnt updated properly by all threads, 
 
 <p>After putting the critical section (updating of the highway distance) in a synchronised block, we can clearly see the highway distance is the correct sum of he individual mileages of the individual threads</p>
 
-![Synced](docs/screenshots/synced.png)
 
 <p></p>
