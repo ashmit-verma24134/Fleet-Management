@@ -1,0 +1,6 @@
+#Type,ID,Model,MaxSpeed,Efficiency, ... (type-specific fields follow)
+Car,C101,Tesla,180.0,15.0,4,40.0,5,3,1200.5
+Truck,T202,Volvo,120.0,8.0,6,80.0,5000.0,2000.0,25000.0
+Bus,B303,Mercedes,100.0,10.0,8,60.0,50,30,1000.0,500.0,25000.0
+Airplane,A404,Boeing 747,900.0,5.0,12000.0,5000.0,200,150,3000.0,1000.0,50000.0
+CargoShip,S505,Evergreen,40.0,4.0,false,800.0,10000.0,2000.0,6000.0

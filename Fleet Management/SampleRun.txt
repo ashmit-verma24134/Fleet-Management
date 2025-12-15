@@ -1,0 +1,41 @@
+Demo: Preloading sample vehicles...
+Vehicle with ID C1 added successfully.
+Vehicle with ID T1 added successfully.
+Vehicle with ID B1 added successfully.
+Vehicle with ID A1 added successfully.
+Vehicle with ID S1 added successfully.
+Demo saved to fleet_demo.csv
+
+Choose an option: 1
+Vehicle type (Car/Truck/Bus/Airplane/CargoShip): Car
+ID: TC1
+Model: TestCar
+Max speed (km/h): 150
+Number of wheels: 4
+Vehicle with ID TC1 added successfully.
+
+Choose an option: 7
+Filename to save (e.g. myfleet.csv): testsave.csv
+Fleet saved successfully to testsave.csv
+
+Choose an option: 16
+Goodbye  exiting..
+
+--- Restart program ---
+Choose an option: 8
+Filename to load (e.g. myfleet.csv): testsave.csv
+Loaded Car with ID C1
+Loaded Car with ID TC1
+Loaded Truck with ID T1
+Loaded Bus with ID B1
+Loaded Airplane with ID A1
+Loaded CargoShip with ID S1
+Fleet loaded successfully from testsave.csv (6 loaded, 0 skipped).
+
+Choose an option: 13
+Sort by: 1) Speed (high->low)  2) Model (A->Z)  3) Efficiency (high->low)
+Choose (1/2/3): 1
+Vehicles by speed (desc):
+ID: A1, Model: Boeing 747, Max Speed: 900.0km/h, Mileage: 0.0 km
+ID: TC1, Model: TestCar, Max Speed: 150.0km/h, Mileage: 0.0 km
+...
